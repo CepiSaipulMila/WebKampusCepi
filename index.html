@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailsimple</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header class="bg-gray-900 sticky top-0">
+      <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
+        <a href="" class="text-3xl font-bold">STTIKOM INSAN UNGGUL</a>
+        <ul class="menu hidden md:flex md:bg-gray-900 md:relative md:top-0 md:divide-y-0 md:w-auto">
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#profile">Profile</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#programstudi">Program Studi</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#ukm">UKM STTIKOM</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#tentangkampus">Tentang Kampus</a></li>
+          <li class="px-7 py-1 hover:text-gray-500 md:hover:text-white"><a href="" class="md:border-2 md:border-red-500 md:py-2 md:px-5 md:rounded-xl md:hover:bg-red-500 text-white">Getting Started</a></li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="bg-gray-900">
+      <div class="container mx-auto text-center text-white h-screen flex items-center">
+        <div class="mx-auto w-3/4 md:w-2/4">
+          <h3 class="text-5xl font-bold text-center mb-5">Awali suksesmu dengan belajar di STTIKOM INSAN UNGGUL</h3>
+          <p class="text-gray-500 mb-5">Jadilah mahasiswa cerdas yang mengikuti setiap pergerakan berdasarkan pertimbangan maslahat dan mudaratnya untuk kepentingan bangsa</p>
+          <a href="#portofolio" class="bg-red-500 text-white py-2 px-5 rounded-xl hover:bg-red-800">See All Portofolio</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile" class="bg-gray-200 py-20">
+      <div class="w-11/12 md:container mx-auto">
+        <h3 class="text-5xl font-bold text-center mb-5">Profile</h3>
+        <p class="text-gray-500 text-center mb-5">
+          STTIKOM Insan Unggul Cilegon adalah institusi pendidikan tinggi yang berfokus pada pengembangan keahlian di bidang teknologi informasi dan komunikasi, dengan komitmen untuk mencetak lulusan yang kompeten dan unggul di dunia kerja.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- service 1-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="gambar/1.jfif" alt="icon data analytics" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Teknologi Informasi</h4>
+              <p class="text-gray-500 mb-5">
+                Program studi yang membekali mahasiswa dengan keahlian analisis data, pemrograman, dan pengembangan aplikasi modern sesuai kebutuhan industri.
+              </p>
+              <a href="#" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+    
+          <!-- service 2-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="gambar/2.jfif" alt="icon social media" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Komunikasi Digital</h4>
+              <p class="text-gray-500 mb-5">
+                Fokus pada keahlian dalam mengelola media digital, menciptakan konten, dan menjalankan strategi pemasaran berbasis teknologi terkini.
+              </p>
+              <a href="#" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+    
+          <!-- service 3-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="gambar/3.jfif" alt="icon developer" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Pengembangan & Infrastruktur</h4>
+              <p class="text-gray-500 mb-5">
+                Memberikan pemahaman mendalam tentang pengembangan perangkat lunak, perawatan sistem jaringan, dan solusi berbasis teknologi.
+              </p>
+              <a href="#" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+    
+          <!-- service 4-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="gambar/keamanan2.jpg" alt="icon protection" class="w-24 h-24 object-cover" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Keamanan Informasi</h4>
+              <p class="text-gray-500 mb-5">
+                Menyiapkan mahasiswa untuk memahami dan mengimplementasikan sistem keamanan siber yang kuat guna melindungi data dan informasi dari ancaman digital.
+              </p>
+              <a href="#" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Program studi -->
+    <section id="programstudi" class="py-20 bg-white">
+      <h3 class="text-5xl font-bold text-center mb-5">Program Studi</h3>
+      <p class="text-gray-500 mb-5 text-center">Kampus STTIKOM memiliki 4 program studi.</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6">
+        <!-- portofolio 1-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="gambar/sistem-informasi.png" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Sistem Informasi</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 2-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="gambar/teknik informatika.jpg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Teknik Informatika</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 3-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="gambar/Manajement-informatika.png" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Manajemen Informatika</h4>
+            </div>
+          </a>
+        </div>
+        <!-- portofolio 4-->
+        <div class="shadow-xl">
+          <a href="">
+            <img src="gambar/akuntansi.jpg" class="w-full" />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Komputerisasi Akuntansi</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- ukm -->
+<section id="ukm" class="bg-gray-200 py-20">
+  <div class="w-11/12 md:container mx-auto">
+    <h3 class="text-5xl font-bold text-center mb-5">UKM STTIKOM</h3>
+    <p class="text-gray-500 text-center mb-5">UKM unggulan STTIKOM INSAN UNGGUL Cilegon.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- service 1-->
+      <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+        <img src="gambar/bem.jpg" />
+        <div>
+          <h4 class="text-2xl font-bold mb-5">Badan Eksekutif Mahasiswa</h4>
+          <p class="text-gray-500 mb-5">Badan Eksekutif Mahasiswa (BEM) STTIKOM Insan Unggul Cilegon adalah organisasi kemahasiswaan yang berfungsi sebagai perwakilan mahasiswa di lingkungan kampus. BEM bertugas menyampaikan aspirasi mahasiswa, mengorganisir kegiatan, dan menjalin hubungan dengan pihak internal maupun eksternal kampus.</p>
+          <a href="" class="hover:text-gray-500">read more</a>
+        </div>
+      </div>
+
+      <!-- service 2-->
+      <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+        <img src="gambar/hamka.jpg" />
+        <div>
+          <h4 class="text-2xl font-bold mb-5">Himpunan Mahasiswa Komputer Dan Akuntnasi</h4>
+          <p class="text-gray-500 mb-5">Himpunan Mahasiswa Komputer dan Akuntansi (HAMKA) di STTIKOM Insan Unggul Cilegon adalah organisasi kemahasiswaan yang mewadahi mahasiswa Program Studi Komputerisasi Akuntansi. Organisasi ini bertujuan untuk mengembangkan minat dan bakat mahasiswa dalam bidang akuntansi yang terintegrasi dengan teknologi informasi.</p>
+          <a href="" class="hover:text-gray-500">read more</a>
+        </div>
+      </div>
+
+      <!-- service 3-->
+      <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+        <img src="gambar/ios.jpg" />
+        <div>
+          <h4 class="text-2xl font-bold mb-5">Ikatan Olahraga Sttikom Insan Unggul</h4>
+          <p class="text-gray-500 mb-5">Ikatan Olahraga STTIKOM Insan Unggul Cilegon adalah organisasi yang berfokus pada pengembangan minat dan bakat mahasiswa dalam bidang olahraga. Organisasi ini bertujuan untuk meningkatkan kesehatan, kebugaran, dan semangat sportivitas di kalangan mahasiswa.</p>
+          <a href="" class="hover:text-gray-500">read more</a>
+        </div>
+      </div>
+
+      <!-- service 4-->
+      <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+        <img src="gambar/mapalaui.jpg" />
+        <div>
+          <h4 class="text-2xl font-bold mb-5">Mapala UI</h4>
+          <p class="text-gray-500 mb-5">Mapala SIU (Mahasiswa Pecinta Alam Sekolah Tinggi Teknologi Ilmu Komputer Insan Unggul) adalah organisasi mahasiswa di STTIKOM Insan Unggul Cilegon yang berfokus pada kegiatan alam dan lingkungan. Organisasi ini bertujuan untuk mengembangkan minat dan bakat mahasiswa dalam kegiatan luar ruangan serta meningkatkan kesadaran akan pentingnya pelestarian alam.</p>
+          <a href="" class="hover:text-gray-500">read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- lokasi -->
+<section class="lokasi bg-gray-100 py-10">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-5">Lokasi Kami</h2>
+    <p class="text-gray-600 mb-8">Kunjungi kami di STTIKOM Insan Unggul, lokasi strategis yang mudah dijangkau untuk informasi lebih lanjut.</p>
+    <div class="relative w-full" style="padding-top: 56.25%;"> <!-- Aspect ratio 16:9 -->
+      <iframe id="googleMap" class="absolute top-0 left-0 w-full h-full pointer-events-none"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.9487700491136!2d106.06604750160135!3d-6.001773096812811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418e12ec0734f3%3A0xdd47e111a5020546!2sSTTIKOM%20Insan%20Unggul!5e0!3m2!1sid!2sid!4v1736476096605!5m2!1sid!2sid"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <!-- about -->
+    <section id="tentangkampus" class="w-11/12 md:container mx-auto py-20">
+      <div class="flex space-x-10 items-start">
+        <img src="gambar/logoStikom.png" class="w-24 md:w-1/3" />
+        <div>
+          <p class="mb-5">
+            STTIKOM Insan Unggul adalah lembaga pendidikan tinggi yang berkomitmen untuk menghasilkan lulusan yang unggul dalam bidang teknologi informasi, komunikasi, dan manajemen. Berdiri dengan visi menciptakan generasi muda yang berintegritas, inovatif, dan profesional, STTIKOM hadir untuk menjawab kebutuhan dunia industri yang terus berkembang pesat.
+          </p>
+          <h3 class="text-5xl font-bold mb-5">Tentang STTIKOM</h3>
+          <p class="mb-5">
+            Kampus ini tidak hanya menawarkan pendidikan akademis yang berkualitas, tetapi juga mendukung pengembangan karakter dan keterampilan mahasiswa melalui berbagai kegiatan ekstrakurikuler, pelatihan, serta kolaborasi dengan perusahaan terkemuka. Dengan kurikulum yang disesuaikan dengan kebutuhan zaman, mahasiswa STTIKOM dipersiapkan untuk menjadi pemimpin masa depan yang mampu bersaing di tingkat global.
+          </p>
+          <p class="mb-5 pb-5 border-b border-gray-900">
+            Fasilitas modern, dosen profesional, dan suasana kampus yang inklusif menjadikan STTIKOM sebagai pilihan terbaik untuk mewujudkan impian Anda. Bergabunglah bersama kami dan raih masa depan cerah melalui pendidikan yang berbasis teknologi dan inovasi!
+          </p>
+          <ul class="md:flex md:space-x-5">
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/sttikom_insanunggul/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- UKM -->
+     
+
+    <footer class="py-5 text-center font-bold">&copy; 2024 STTIKOM INSAN UNGGUL CILEGON</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
